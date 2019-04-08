@@ -1,8 +1,6 @@
-- id: mypy
-  name: mypy
-  entry: mypy
+- id: pre-commit-jupyter
+  name: pre-commit-jupyter
+  entry: pre-commit-jupyter
   language: python
-  'types': [python]
-  args: ["--ignore-missing-imports", "--scripts-are-modules"]
-  require_serial: true
-  additional_dependencies: []
+  files: \.py$
+  args: []
