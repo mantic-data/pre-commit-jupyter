@@ -1,6 +1,5 @@
-- id: pre-commit-jupyter
-  name: pre-commit-jupyter
-  entry: pre-commit-jupyter
+- id: python-nbconvert
+  name: Convert ipynb to py and html files
+  entry: python-nbconvert
   language: python
-  files: \.py$
-  args: []
+  files: \.ipynb$
