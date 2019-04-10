@@ -10,6 +10,7 @@ Add this to your ``.pre-commit-config.yaml`` file
 
     - repo: git://github.com/mantic-data/pre-commit-jupyter
       hooks:
+      sha: master
       - id: python-nbconvert
        
 
